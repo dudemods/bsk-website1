@@ -1,0 +1,41 @@
+body{
+    overflow-x: hidden;
+    
+}
+
+#nav1{  
+    background-color:rgb(0, 0, 0);
+    opacity: 0.9; 
+    filter:(opacity=50)
+    ;      
+}
+
+
+.overlay { 
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:10%;
+    left:25%;
+    width:100%;
+    text-align:center;
+
+  }
+
+  .asarp {
+    transition: 0.3s;
+  }
+  
+  .asarp:hover {
+      background-color: rgb(206, 206, 206);
+    
+    color: #006effcc;
+  }
+
+
+
+.bsk{
+  z-index:1;
+  
+
+}
